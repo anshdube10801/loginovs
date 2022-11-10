@@ -52,7 +52,7 @@ React.useEffect(() => {
 return (
 	<div style={rootDiv}>
 	<img
-		src="https://media.geeksforgeeks.org/wp-content/uploads/20210318103632/gfg.png"
+		src="/logo.png"
 		style={image}
 		alt="geeks"
 	/>
@@ -91,6 +91,7 @@ flexDirection: "column",
 alignItems: "center",
 justifyContent: "center",
 height: "100vh",
+backgroundImage: "url('/bg.webp')",
 };
 
 const input = {
@@ -111,7 +112,7 @@ margin: 10,
 cursor: "pointer",
 fontSize: 17,
 color: "white",
-backgroundColor: "#9D27CD",
+backgroundColor: "#0275d8", //#9D27CD
 border: "none",
 };
 
